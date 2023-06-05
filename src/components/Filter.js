@@ -4,6 +4,7 @@ function Filter({ onCategoryChange, onSearchChange, search }) {
   function handleSearch(event) {
     onSearchChange(event.target.value);
   }
+
   return (
     <div className="Filter">
       <input
